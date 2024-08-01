@@ -1,4 +1,3 @@
-#
 # Copyright (C) 2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -291,6 +290,7 @@ PRODUCT_PACKAGES += \
     WifiOverlayGarnetRedmiCN \
     WifiOverlayGarnetXIG05
 
+
 PRODUCT_PACKAGES += \
     NcmTetheringOverlay
 
@@ -300,6 +300,9 @@ PRODUCT_PACKAGES += \
     vendor_dsp_mountpoint \
     vendor_firmware_mnt_mountpoint \
     vendor_vm-system_mountpoint
+
+# Parts
+XiaomiParts
 
 # Power
 PRODUCT_PACKAGES += \

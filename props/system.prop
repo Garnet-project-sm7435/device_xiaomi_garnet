@@ -13,3 +13,7 @@ persist.vendor.data.mode=concurrent
 ril.subscription.types=NV,RUIM
 ro.telephony.default_network=33,33
 telephony.lteOnCdmaDevice=1
+
+ro.product.marketname=Redmi not 13 pro 5G
+ro.infinity.soc=Snapdragon 7s Gen 2
+ro.infinity.camera=200MP + 8MP + 2MP

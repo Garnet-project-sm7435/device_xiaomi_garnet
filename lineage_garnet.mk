@@ -12,6 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# AXION
+AXION_MAINTAINER := Youkio
+AXION_PROCESSOR := Snapdragon _7s_gen 2
+AXION_CAMERA_REAR_INFO := 200_8_2_mp
+AXION_CAMERA_FRONT_INFO := 12_mp
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 

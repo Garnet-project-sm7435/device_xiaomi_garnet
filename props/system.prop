@@ -13,3 +13,6 @@ persist.vendor.data.mode=concurrent
 ril.subscription.types=NV,RUIM
 ro.telephony.default_network=33,33
 telephony.lteOnCdmaDevice=1
+
+# Bluetooth
+persist.vendor.btstack.enable.twsplussho=true

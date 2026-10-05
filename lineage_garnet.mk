@@ -15,6 +15,16 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 
+# build flags
+MISTOS_MAINTAINER := Youkio
+WITH_GMS := true
+TARGET_INCLUDE_PIXEL_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
+TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
 PRODUCT_NAME := lineage_garnet
 PRODUCT_DEVICE := garnet
 PRODUCT_MANUFACTURER := Xiaomi

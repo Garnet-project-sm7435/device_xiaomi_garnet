@@ -16,3 +16,13 @@ telephony.lteOnCdmaDevice=1
 
 # Bluetooth
 persist.vendor.btstack.enable.twsplussho=true
+
+# MistOS About Phone
+ro.mist.device.name=Redmi Note 13 Pro 5G
+ro.mist.platform=SM7435-AB
+ro.mist.soc=Snapdragon 7s Gen 2
+ro.mist.screen=6.67' 1.5K AMOLED
+ro.mist.display=2712x1220, 120Hz
+ro.mist.battery=5100mAh
+ro.mist.camera=200MP + 8MP + 2MP
+ro.mist.front=16MP

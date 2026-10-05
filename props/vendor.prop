@@ -234,3 +234,4 @@ persist.vendor.vcb.enable=false
 
 # WLAN
 wifi.aware.interface=wifi-aware0
+wifi.supplicant_scan_interval=179

@@ -239,3 +239,7 @@ wifi.supplicant_scan_interval=180
 # Render thread & GPU optimizations
 renderthread.skia.reduceopstasksplitting=true
 debug.hwui.use_buffer_age=false
+
+# Suppress HAL logging
+persist.log.tag.stats_log=F
+

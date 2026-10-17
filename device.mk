@@ -159,6 +159,11 @@ PRODUCT_PACKAGES += \
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Enhanced Doze Mode (Battery Savings)
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    settings_global_device_idle_constants=light_after_inactive_to=300000,light_pre_idle_to=600000
+
+
 # Euicc
 PRODUCT_PACKAGES += \
     XiaomiEsimSwitcher \

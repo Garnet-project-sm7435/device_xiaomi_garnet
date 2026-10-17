@@ -14,6 +14,9 @@ ril.subscription.types=NV,RUIM
 ro.telephony.default_network=33,33
 telephony.lteOnCdmaDevice=1
 
+# Disable SF continuous tracing
+persist.sf.continuous_tracing=0
+
 # MistOS About Phone
 ro.mist.device.name=Redmi Note 13 Pro 5G
 ro.mist.platform=SM7435-AB

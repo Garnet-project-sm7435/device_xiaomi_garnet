@@ -235,3 +235,8 @@ persist.vendor.vcb.enable=false
 # WLAN
 wifi.aware.interface=wifi-aware0
 wifi.supplicant_scan_interval=180
+
+# Render thread & GPU optimizations
+renderthread.skia.reduceopstasksplitting=true
+debug.hwui.use_buffer_age=false
+

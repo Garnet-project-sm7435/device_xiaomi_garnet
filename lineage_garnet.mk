@@ -15,15 +15,13 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 
-# build flags
-MISTOS_MAINTAINER := Youkio
-WITH_GMS := true
-TARGET_INCLUDE_PIXEL_LAUNCHER := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
-TARGET_ENABLE_BLUR := true
-TARGET_HAS_UDFPS := true
-EXTRA_UDFPS_ANIMATIONS := true
+# Evox
+EVO_BUILD_TYPE := Unofficial
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_INCLUDE_ACCORD := false
+BUILD_BCR := true
+WITH_GMS := false
 
 PRODUCT_NAME := lineage_garnet
 PRODUCT_DEVICE := garnet

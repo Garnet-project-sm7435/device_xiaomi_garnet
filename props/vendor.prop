@@ -243,3 +243,8 @@ debug.hwui.use_buffer_age=false
 # Suppress HAL logging
 persist.log.tag.stats_log=F
 
+
+# SurfaceFlinger render thread scheduling
+vendor.display.enable_default_color_mode=1
+debug.sf.enable_gl_backpressure=1
+debug.sf.latch_unsignaled=1

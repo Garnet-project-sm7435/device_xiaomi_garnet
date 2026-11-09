@@ -486,3 +486,6 @@ $(call inherit-product, vendor/xiaomi/garnet/garnet-vendor.mk)
 
 # Vendor MiuiCamera
 $(call inherit-product-if-exists, device/xiaomi/garnet-miuicamera/device.mk)
+
+# ART/Dalvik heap parameters for 8GB+ RAM
+PRODUCT_PROPERTY_OVERRIDES += \n    dalvik.vm.heapgrowthlimit=256m \n    dalvik.vm.heapsize=512m \n    dalvik.vm.heapstartsize=16m \n    dalvik.vm.heaptargetutilization=0.75 \n    dalvik.vm.heapminfree=512k \n    dalvik.vm.heapmaxfree=8m

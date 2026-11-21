@@ -143,6 +143,7 @@ debug.sf.earlyGl.sf.duration=15666666
 debug.sf.enable_gl_backpressure=1
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=0
+debug.sf.defer_refresh_rate_when_off=1
 debug.sf.late.app.duration.120=11666666
 debug.sf.late.app.duration.144=10111110
 debug.sf.late.app.duration.180=7888888

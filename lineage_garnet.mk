@@ -21,6 +21,7 @@ TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_INCLUDE_ACCORD := false
 BUILD_BCR := true
 WITH_GMS := false
+TARGET_HAS_UDFPS := true
 
 PRODUCT_NAME := lineage_garnet
 PRODUCT_DEVICE := garnet
@@ -38,3 +39,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Udfps
+ifeq ($(TARGET_HAS_UDFPS),true)
+
+PRODUCT_PACKAGES += \
+    UdfpsAnimations \
+    UdfpsIcons
+
+endif
